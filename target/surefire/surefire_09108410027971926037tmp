@@ -1,0 +1,8 @@
+#surefire_0
+#Mon Oct 02 22:24:05 CEST 2017
+base.url=http\://127.0.0.1\:8080/
+jetty.context=tutoselenium
+jetty.port=8080
+basedir=D\:\\Donnees\\eclipse\\eclipseworkspace_neon\\tuto_selenium_complet
+user.dir=D\:\\Donnees\\eclipse\\eclipseworkspace_neon\\tuto_selenium_complet
+localRepository=C\:\\Users\\dan\\.m2\\repository
