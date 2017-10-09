@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
-Test set: fr.atatorus.tutoselenium.selenium.SeleniumTest
+Test set: levy.daniel.application.selenium.SeleniumTest
 -------------------------------------------------------------------------------
 Tests run: 7, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 58.857 sec <<< FAILURE!
-chromeTest(fr.atatorus.tutoselenium.selenium.SeleniumTest)  Time elapsed: 0.059 sec  <<< ERROR!
+chromeTest(levy.daniel.application.selenium.SeleniumTest)  Time elapsed: 0.059 sec  <<< ERROR!
 java.lang.IllegalStateException: The driver executable does not exist: D:\usr\lib64\chromium\chromedriver
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
 	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:117)
 	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:112)
 	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:75)
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
-	at fr.atatorus.tutoselenium.selenium.SeleniumTest.chromeTest(SeleniumTest.java:176)
+	at levy.daniel.application.selenium.SeleniumTest.chromeTest(SeleniumTest.java:176)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -42,9 +42,9 @@ java.lang.IllegalStateException: The driver executable does not exist: D:\usr\li
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-chromeTest(fr.atatorus.tutoselenium.selenium.SeleniumTest)  Time elapsed: 0.06 sec  <<< ERROR!
+chromeTest(levy.daniel.application.selenium.SeleniumTest)  Time elapsed: 0.06 sec  <<< ERROR!
 java.lang.NullPointerException
-	at fr.atatorus.tutoselenium.selenium.SeleniumTest.tearDown(SeleniumTest.java:471)
+	at levy.daniel.application.selenium.SeleniumTest.tearDown(SeleniumTest.java:471)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -75,7 +75,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-firefoxTest(fr.atatorus.tutoselenium.selenium.SeleniumTest)  Time elapsed: 48.822 sec  <<< ERROR!
+firefoxTest(levy.daniel.application.selenium.SeleniumTest)  Time elapsed: 48.822 sec  <<< ERROR!
 org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
 ferredSave.webext.sc.lz4	DEBUG	Save changes
 1506975860135	DeferredSave.webext.sc.lz4	DEBUG	Save changes
@@ -135,7 +135,7 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:183)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:179)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:92)
-	at fr.atatorus.tutoselenium.selenium.SeleniumTest.firefoxTest(SeleniumTest.java:124)
+	at levy.daniel.application.selenium.SeleniumTest.firefoxTest(SeleniumTest.java:124)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -219,9 +219,9 @@ JavaScript error: resource://gre/modules/PopupNotifications.jsm, line 1043: Type
 	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
 	... 38 more
 
-firefoxTest(fr.atatorus.tutoselenium.selenium.SeleniumTest)  Time elapsed: 48.822 sec  <<< ERROR!
+firefoxTest(levy.daniel.application.selenium.SeleniumTest)  Time elapsed: 48.822 sec  <<< ERROR!
 java.lang.NullPointerException
-	at fr.atatorus.tutoselenium.selenium.SeleniumTest.tearDown(SeleniumTest.java:471)
+	at levy.daniel.application.selenium.SeleniumTest.tearDown(SeleniumTest.java:471)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -252,7 +252,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-operaTest(fr.atatorus.tutoselenium.selenium.SeleniumTest)  Time elapsed: 0.065 sec  <<< ERROR!
+operaTest(levy.daniel.application.selenium.SeleniumTest)  Time elapsed: 0.065 sec  <<< ERROR!
 org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Runner threw exception on construction
 Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
@@ -263,7 +263,7 @@ Driver info: driver.version: OperaDriver
 	at com.opera.core.systems.OperaDriver.start(OperaDriver.java:194)
 	at com.opera.core.systems.OperaDriver.<init>(OperaDriver.java:183)
 	at com.opera.core.systems.OperaDriver.<init>(OperaDriver.java:153)
-	at fr.atatorus.tutoselenium.selenium.SeleniumTest.operaTest(SeleniumTest.java:154)
+	at levy.daniel.application.selenium.SeleniumTest.operaTest(SeleniumTest.java:154)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -315,9 +315,9 @@ Caused by: com.opera.core.systems.runner.OperaRunnerException: Unable to find ex
 	at com.opera.core.systems.runner.launcher.OperaLauncherRunner.<init>(OperaLauncherRunner.java:95)
 	... 41 more
 
-operaTest(fr.atatorus.tutoselenium.selenium.SeleniumTest)  Time elapsed: 0.065 sec  <<< ERROR!
+operaTest(levy.daniel.application.selenium.SeleniumTest)  Time elapsed: 0.065 sec  <<< ERROR!
 java.lang.NullPointerException
-	at fr.atatorus.tutoselenium.selenium.SeleniumTest.tearDown(SeleniumTest.java:471)
+	at levy.daniel.application.selenium.SeleniumTest.tearDown(SeleniumTest.java:471)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

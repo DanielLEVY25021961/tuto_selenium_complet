@@ -1,4 +1,4 @@
-package fr.atatorus.tutoselenium;
+package levy.daniel.application;
 
 import java.io.Serializable;
 import java.text.MessageFormat;
